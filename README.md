@@ -31,6 +31,8 @@ Grundsätzlich entspricht der Graph dem erwarteten Ergebnis: In der Tendenz bede
 You are walking in the forrest and see an iris and measure: 4.8,2.5,5.3,2.4.
 Is this an Iris Virginica or not? 
 
+Als Basis zur Bearbeitung dient das berühmte [**Iris flower data set**](https://en.wikipedia.org/wiki/Iris_flower_data_set).
+
 #### Ergebnis:
 
 Die komplette und ausführliche Lösung dieser Aufgabenstellung findet sich in diesem [**Notebook**](https://github.com/ChristianKitte/HelloRegression/blob/main/Logistische_Regression.ipynb). Bei der Bearbeitung zeigte sich, dass das Ergebnis auf Basis von Modellen, welche nur mit einem der vier Merkmalen traniert wurde, nicht eindeutig ist. Wird beispielsweise alleine Sepal Length zur Beurteilung herangezogen, so ist die Wahrscheinlichkeit eher sehr klein, dass es sich um eine Iris Virginica handelt. Nimmt man hingegen Petal Width, so ist die Wahrscheinlichkeit für das Gegenteil sehr hoch.
