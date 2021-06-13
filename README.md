@@ -2,7 +2,7 @@
 ### Data Science SS 21
 ### Christian Kitte 
 
-### Exercise 1: Lineare Regression
+### Exercise 1 von 2: Lineare Regression
 
 Make up your own personal dataset and predict the regression curve.
 
@@ -25,3 +25,21 @@ Der Wert 0,7 ist eher weniger gut, jedoch sind bei den Daten eine Reihe Ausreiß
 Würde es sich bei näherer Betrachtung herausstellen, dass solche Ausreißer beispielsweise durch Ausscheiden des Mitarbeiter, einer Fehlerhaften Vergabe etc. verursacht würden, würden deren nicht Berücksichtigung das Ergebnis genauer machen.
 
 Grundsätzlich entspricht der Graph dem erwarteten Ergebnis: In der Tendenz bedeuten mehr Aufträge mehr erfolgreiche Durchführungen. Die Streuung ist den bewust großen Schwankungen zuzurechnen.
+
+### Exercise 2 von 2: Logistische Regression
+
+You are walking in the forrest and see an iris and measure: 4.8,2.5,5.3,2.4.
+Is this an Iris Virginica or not? 
+
+#### Ergebnis:
+
+Das Ergebnis auf Basis von Modellen, welche nur mit einem der view Merkmalen traniert wurde ist nicht eindeutig. Wird beispielsweise alleine Sepal Length zur Beurteilung herangezogen, so ist die Wahrscheinlichkeit eher sehr klein, dass es sich um eine Iris Virginica handelt. Nimmt man hingegen Petal With, so ist die Wahrscheinlichkeit für das Gegenteil sehr hoch.
+
+Daher wurde im zweiten Schritte ein Modell mit allen vier Merkmalen trainiert. Auf Basis eines mit allen vier features trainierten Modells erhalten wir die Aussage, dass es sich bei der Blume zu 97,6 % um eine Iris Virginica handelt.
+
+Dem schließe ich mich an: Ja, es handelt sich um eine Iris Virginica !
+
+#### Anmerkung:
+
+Ein großer Teil des im Notebook für die zweite Aufgabe verwendeten Codes dient lediglich der Verdeutlichung, Visualisierung und sonstiger Ausgaben und kann grundsätzlich entfallen. Es ist hierbei erstaunlich, wie hilfreich eine Bibliothek wie sklearn sein kann. Wer sich nur für das Model auf Basis aller Features interessiert, findet dies am Ende des Notebooks :).
+
