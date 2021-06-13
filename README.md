@@ -33,13 +33,13 @@ Is this an Iris Virginica or not?
 
 #### Ergebnis:
 
-Das Ergebnis auf Basis von Modellen, welche nur mit einem der view Merkmalen traniert wurde ist nicht eindeutig. Wird beispielsweise alleine Sepal Length zur Beurteilung herangezogen, so ist die Wahrscheinlichkeit eher sehr klein, dass es sich um eine Iris Virginica handelt. Nimmt man hingegen Petal With, so ist die Wahrscheinlichkeit für das Gegenteil sehr hoch.
+Die komplette und ausführliche Lösung dieser Aufgabenstellung findet sich in diesem [**Notebook**](https://github.com/ChristianKitte/HelloRegression/blob/main/Logistische_Regression.ipynb). Bei der Bearbeitung zeigte sich, dass das Ergebnis auf Basis von Modellen, welche nur mit einem der vier Merkmalen traniert wurde, nicht eindeutig ist. Wird beispielsweise alleine Sepal Length zur Beurteilung herangezogen, so ist die Wahrscheinlichkeit eher sehr klein, dass es sich um eine Iris Virginica handelt. Nimmt man hingegen Petal Width, so ist die Wahrscheinlichkeit für das Gegenteil sehr hoch.
 
-Daher wurde im zweiten Schritte ein Modell mit allen vier Merkmalen trainiert. Auf Basis eines mit allen vier features trainierten Modells erhalten wir die Aussage, dass es sich bei der Blume zu 97,6 % um eine Iris Virginica handelt.
+Daher wurde im zweiten Schritt ein Modell mit allen vier Merkmalen trainiert. Auf Basis eines mit allen vier features trainierten Modells erhalten wir die Aussage, dass es sich bei der Blume zu 97,6 % um eine Iris Virginica handelt.
 
 Dem schließe ich mich an: Ja, es handelt sich um eine Iris Virginica !
 
 #### Anmerkung:
 
-Ein großer Teil des im Notebook für die zweite Aufgabe verwendeten Codes dient lediglich der Verdeutlichung, Visualisierung und sonstiger Ausgaben und kann grundsätzlich entfallen. Es ist hierbei erstaunlich, wie hilfreich eine Bibliothek wie sklearn sein kann. Wer sich nur für das Model auf Basis aller Features interessiert, findet dies am Ende des Notebooks :).
+Ein großer Teil des im Notebook für die zweite Aufgabe verwendeten Codes dient lediglich der Verdeutlichung, Visualisierung und sonstiger Ausgaben und kann grundsätzlich entfallen. Es ist hierbei erstaunlich, wie hilfreich eine Bibliothek wie sklearn sein kann. Wer sich primär nur für das Model auf Basis aller Features interessiert, findet dies am Ende des Notebooks :).
 
