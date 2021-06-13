@@ -7,9 +7,11 @@
 Make up your own personal dataset and predict the regression curve.
 
 #### Fiktiver Kontext:
-An freien Mitarbeitern werden Aufträge vergeben, welche nach vorheriger Absprache von diesen zu erledigen sind. Es ist normal, dass es eine Reihe von Gründen gibt, warum diese nicht erfolgreich sind. Nicht immer sind diese von den Mitarbeitern zu vertreten. Ein Auftrag wurd erfolgreich erledigt, sofern er fristgerecht und korrekt zur weiteren Verwendung vorliegt.
+An freien Mitarbeitern werden Aufträge vergeben, welche nach vorheriger Absprache von diesen zu erledigen sind. Es ist normal, dass es eine Reihe von Gründen gibt, warum diese nicht erfolgreich sind. Nicht immer sind diese von den Mitarbeitern zu vertreten. Ein Auftrag wurd erfolgreich erledigt, sofern er fristgerecht und korrekt zur weiteren Verwendung vorliegt. Um hier nach möglichen Zusammenhängen zu suchen, wurde die Zahl der zugeteilten sowie der Erledigten Aufträge notiert. Hierbei können natürlich nur Aufträge einer vergleichbaren Art zusammen ausgewertet werden (beispielsweise nur im gleichen Bereich oder gleicher Zielgruppe).
 
-Die [**hier vorliegende CSV Datei Auftraege.csv**](https://github.com/ChristianKitte/HelloRegression/blob/main/Auftraege.csv) enthält die fiktiven Anzahl von vergebenen Aufträgen und die Anzahl der hiervon erfolgreich durchgeführten. Hierbei wurden die Zahlen bereinigt, so dass nur die tatsächlich zu realisierenden Aufträge Berücksichtigung finden. Dieser Schritt müsste in einem realen Umfeld besondere Beachtung finden. 
+Die [**hier vorliegende CSV Datei Auftraege.csv**](https://github.com/ChristianKitte/HelloRegression/blob/main/Auftraege.csv) enthält die fiktive Anzahl von vergebenen Aufträgen und die Anzahl der hiervon erfolgreich durchgeführten. Hierbei wurden die Zahlen bereinigt, so dass nur die tatsächlich zu realisierenden Aufträge Berücksichtigung finden. Dieser Schritt müsste in einem realen Umfeld besondere Beachtung finden. 
+
+Die Daten sind auf GitHub als CSV Datei verfügbar (Link siehe unten).
 
 Mit Hilfe der linearen Regression soll versucht werden, einen möglichen Zusammenhang zu erkennen. Problematisch können heirbei Outliner sein, welche den allgemeinen Trend entgegen laufen. Eine Steigerung hiervon währe, weitere Merkmale wie die Länge des Arbeitsverhältnisses zu berücksichtigen.
 
